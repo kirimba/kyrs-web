@@ -1,0 +1,100 @@
+<h2>Internet Explorer 10</h2>
+<p>версия обозревателя Internet Explorer от Microsoft и преемник Internet Explorer 9. В операционной системе Windows 8 устанавливается по умолчанию, также доступна версия для Windows 7. Не совместим с Windows Vista и более ранними версиями.</p>
+<p>12 апреля 2011 года была выпущена первая предварительная версия Internet Explorer 10, которая работала на платформах Windows 7 и выше, следующие выпуски предварительных версий работали только на Windows 8. Финальная версия Internet Explorer 10 была предустановлена в операционной системе Windows 8, которая поступила в розничную продажу 26 октября 2012 года. В середине ноября 2012 года Microsoft выпустила предварительную версию для предыдущей операционной системы — Windows 7, а 26 февраля 2013 года выпустила её финальную версию. Поддержка всех веб-стандартов реализована так же, как в Internet Explorer 10 для Windows 8.</p>
+<p>В Windows 8 браузер разделен на две версии, первая версия браузера — в Metro интерфейсе без поддержки плагинов, вторая — традиционное приложение рабочего стола в которой возможность расширения за счет плагинов сохранена. В 64-битной версии Windows 8 — Metro версия IE10 будет 64-битным приложением.</p>
+<p>В новой версии браузера совершенствуется поддержка JS, CSS3 и HTML5 и аппаратного ускорения. Внешний вид в оконном режиме не претерпел существенных изменений по сравнению с 9 версией.</p>
+<h3>История версий</h3>
+<table class="table mytable table-bordered table-striped table-responsive ">
+<tbody>
+<tr>
+<th> Имя
+</th>
+<th> Версия
+</th>
+<th> Дата выпуска
+</th>
+<th> Новые особенности
+</th></tr>
+<tr>
+<td> Internet Explorer 10 Platform Preview 1
+</td>
+<td> 10.1000.16394
+</td>
+<td style="width:90px"> 12.04.2011
+</td>
+<td> Поддержка новых CSS3, совместимость сайта со старыми браузерами (IE5, IE7, IE8 и IE9).
+</td></tr>
+<tr>
+<td style="width:130px"> Internet Explorer 10 Platform Preview 2
+</td>
+<td> 10.1008.16421
+</td>
+<td> 29.06.2011
+</td>
+<td> CSS3 градиенты (на всех типах изображений), HTML5: Поддержка асинхронных атрибутов, HTML5 перетаскивание, HTML5 File API, HTML5 Web Workers, Web Performance API: requestAnimationFrame
+</td></tr>
+<tr>
+<td> Internet Explorer 10 Platform Preview 3
+</td>
+<td> 10.0.8102.0
+</td>
+<td style="width:90px"> 13.09.2011
+</td>
+<td> Поддержка CSS 3D преобразований, CSS Тень текста, SVG Эффекты фильтра, проверка правописания, автоисправление, локальное хранилище с IndexedDB и кэш HTML5 приложений, WebSockets, и HTML5 истории.
+</td></tr>
+<tr>
+<td style="width:130px"> Internet Explorer 10 Platform Preview 4
+</td>
+<td> 10.0.8103.0
+</td>
+<td style="width:90px"> 29.11.2011
+</td>
+<td> Поддержка субтитров в HTML5 Video (сразу нескольких языков), CORS (cross origin resource sharing) для безопасных кроссдоменных запросов, поддержка File API: Writer для работы в браузере с большими бинарными объектами (файлами, блобами), JavaScript typed arrays для эффективного хранения и манипулирования типизированными данными, свойства CSS user select для возможности задать на странице блоки, которые доступны для выделения пользователем, Web Worker Thread Pooling, улучшения в CSS3 Positioned Floats, Flexbox, Grid и поддержке XHR2.
+</td></tr>
+<tr>
+<td style="width:130px"> Internet Explorer 10 Platform Preview 5
+</td>
+<td> 10.0.8250.0
+</td>
+<td style="width:90px"> 29.02.2012
+</td>
+<td>
+</td></tr>
+<tr>
+<td style="width:130px"> Internet Explorer 10 Platform Preview 6
+</td>
+<td> 10.0.8400.0
+</td>
+<td style="width:90px"> 01.06.2012
+</td>
+<td> Интеграция с Adobe Flash, улучшена скорость работы, поддержка JavaScript, HTML5, CSS3.
+</td></tr>
+<tr class="success">
+<td style="width:130px"> Internet Explorer 10 RTM
+</td>
+<td> 10.0.9200.16384
+</td>
+<td style="width:90px"> 01.08.2012
+</td>
+<td>
+</td></tr>
+<tr>
+<td style="width:130px"> Internet Explorer 10 Release Preview for Windows 7
+</td>
+<td> 10.0.9200.16438
+</td>
+<td style="width:90px"> 13.11.2012
+</td>
+<td> Preview Release для Windows 7
+</td></tr>
+<tr class="success">
+<td style="width:130px"> Internet Explorer 10 Release for Windows 7
+</td>
+<td> 10.0.9200.16521
+</td>
+<td style="width:90px"> 26.02.2013
+</td>
+<td> Финальный релиз для Windows 7
+</td></tr>
+</tbody>
+</table>
