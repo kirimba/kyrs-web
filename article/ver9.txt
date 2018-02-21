@@ -3,85 +3,102 @@
 <p>IE9 предназначен только для Windows 7, Windows Server 2008 R2, Windows Vista (только SP2) и Windows Server 2008 (с установленным обновлением Platform Update); для них имеются 32-х и 64-х версии.</p>
 <p>IE9 больше не поддерживается Google Apps с октября 2013 года.</p>
 <h3>История версий</h3>
-<table class="table mytable table-bordered table-striped table-responsive ">
-<tbody><tr>
-<th>Имя</th>
-<th>Версия</th>
-<th>Дата выпуска</th>
-<th>Очки Acid3</th>
-<th>Новые особенности</th>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 1</td>
-<td>1.9.7745.6019</td>
-<td style="width:90px">2010-03-16</td>
-<td>55/100</td>
-<td>Поддержка CSS3 и SVG, а также новый JavaScript движок Chakra.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 2</td>
-<td>1.9.7766.6000</td>
-<td>2010-05-05</td>
-<td>68/100</td>
-<td>Улучшена производительность JavaScript, CSS Media Queries.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 3</td>
-<td>1.9.7874.6000</td>
-<td>2010-06-23</td>
-<td>83/100</td>
-<td>HTML5 аудио, HTML5 видео, и canvas</a> элемент, а также <span title="Web Open Font Format">WOFF</span>.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 4</td>
-<td>1.9.7916.6000</td>
-<td>2010-08-04</td>
-<td rowspan="7">95/100</td>
-<td>JavaScript движок интегрирован в основные элементы браузера.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 5</td>
-<td>1.9.7930.16406</td>
-<td rowspan="2">2010-09-15</td>
-<td align="center" valign="center">Новый значок IE9.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Beta</td>
-<td>9.0.7930.16406</td>
-<td>Новый пользовательский интерфейс.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 6</td>
-<td>1.9.8006.6000</td>
-<td>2010-10-28</td>
-<td>CSS3 2D transforms и HTML5 semantic tags.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 7</td>
-<td>1.9.8023.6000</td>
-<td>2010-11-17</td>
-<td>Улучшена производительность JavaScript.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Platform Preview 8</td>
-<td>1.9.8080.16413</td>
-<td rowspan="2">2011-02-10</td>
-<td>Улучшена производительность, усовершенствована совместимость и добавлена возможность отслеживания местоположения.</td>
-</tr>
-<tr>
-<td>Internet Explorer 9 Release Candidate</td>
-<td>9.0.8080.16413</td>
-<td>Улучшена производительность, фильтрация <i>InPrivate</i> переименована в <i>Tracking Protection</i> (В русскоязычной версии «Защита от слежения»), немного изменен пользовательский интерфейс, добавлена поддержка еще нескольких веб стандартов, возможность поместить вкладки в отдельную строку и другие улучшения.</td>
-</tr>
-<tr class="success">
-<td>Internet Explorer 9</td>
-<td>9.0.8112.16421</td>
-<td>2011-03-14</td>
-<td>100/100</td>
-<td>Улучшена производительность, улучшен Tracking Protection.</td>
-</tr>
-</tbody></table>
-
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#table_9">Открыть</button>
+<div class="modal fade" id="table_9" tabindex="-1" role="dialog" aria-labelledby="table_9ModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="table_9ModalLabel">История версий</h4>
+      </div>
+      <div class="modal-body">
+		<div style="overflow-x: auto;">
+		<table class="table mytable table-bordered table-striped table-responsive ">
+		<tbody><tr>
+		<th>Имя</th>
+		<th>Версия</th>
+		<th>Дата выпуска</th>
+		<th>Очки Acid3</th>
+		<th>Новые особенности</th>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 1</td>
+		<td>1.9.7745.6019</td>
+		<td style="width:90px">2010-03-16</td>
+		<td>55/100</td>
+		<td>Поддержка CSS3 и SVG, а также новый JavaScript движок Chakra.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 2</td>
+		<td>1.9.7766.6000</td>
+		<td>2010-05-05</td>
+		<td>68/100</td>
+		<td>Улучшена производительность JavaScript, CSS Media Queries.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 3</td>
+		<td>1.9.7874.6000</td>
+		<td>2010-06-23</td>
+		<td>83/100</td>
+		<td>HTML5 аудио, HTML5 видео, и canvas</a> элемент, а также <span title="Web Open Font Format">WOFF</span>.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 4</td>
+		<td>1.9.7916.6000</td>
+		<td>2010-08-04</td>
+		<td rowspan="7">95/100</td>
+		<td>JavaScript движок интегрирован в основные элементы браузера.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 5</td>
+		<td>1.9.7930.16406</td>
+		<td rowspan="2">2010-09-15</td>
+		<td align="center" valign="center">Новый значок IE9.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Beta</td>
+		<td>9.0.7930.16406</td>
+		<td>Новый пользовательский интерфейс.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 6</td>
+		<td>1.9.8006.6000</td>
+		<td>2010-10-28</td>
+		<td>CSS3 2D transforms и HTML5 semantic tags.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 7</td>
+		<td>1.9.8023.6000</td>
+		<td>2010-11-17</td>
+		<td>Улучшена производительность JavaScript.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Platform Preview 8</td>
+		<td>1.9.8080.16413</td>
+		<td rowspan="2">2011-02-10</td>
+		<td>Улучшена производительность, усовершенствована совместимость и добавлена возможность отслеживания местоположения.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 9 Release Candidate</td>
+		<td>9.0.8080.16413</td>
+		<td>Улучшена производительность, фильтрация <i>InPrivate</i> переименована в <i>Tracking Protection</i> (В русскоязычной версии «Защита от слежения»), немного изменен пользовательский интерфейс, добавлена поддержка еще нескольких веб стандартов, возможность поместить вкладки в отдельную строку и другие улучшения.</td>
+		</tr>
+		<tr class="success">
+		<td>Internet Explorer 9</td>
+		<td>9.0.8112.16421</td>
+		<td>2011-03-14</td>
+		<td>100/100</td>
+		<td>Улучшена производительность, улучшен Tracking Protection.</td>
+		</tr>
+		</tbody></table>
+		</div>
+	   </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
 <h3>Разработка</h3>
 <img id="imgieb9" align="right" class="img-responsive" alt="Логотип до бета-версии IE9" data-container="body" data-toggle="popover" data-placement="top" data-content="Логотип до бета-версии IE9" src = "ML_LogoUpdate_7.jpg">
 <p>Развитие IE9 началось вскоре после окончательного выпуска IE8 и Microsoft начала принимать предложения от пользователей через Microsoft Connect.[18] До сих пор команда разработчиков IE9 сосредоточена на улучшении поддержки HTML5 и добавление поддержки для XHTML и SVG.</p>

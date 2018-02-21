@@ -9,27 +9,45 @@
 <p>Internet Explorer 11 имеет интерфейс, который автоматически адаптируется под тип устройства — например, на планшете на Windows 8 он обеспечит лучшие возможности для сенсорного управления (вкладки по размеру пальца, пролистывание и т. д.), в то время как для ноутбука будет поддерживать управление с помощью мыши и клавиатуры.</p>
 <p>Internet Explorer 11 — последний браузер в семействе Internet Explorer. Начиная с Windows 10, ему пришёл на замену новый браузер <i><b>Microsoft Edge</b></i>.</p>
 <h3>История версий</h3>
-<table  class="table mytable table-bordered table-striped table-responsive">
-<tr>
-<th>Имя</th>
-<th>Версия</th>
-<th>Дата выпуска</th>
-<th>Новые особенности</th>
-</tr>
-<tr>
-<td>Internet Explorer 11 Developer Preview</td>
-<td rowspan="2">11.0.9431.0</td>
-<td>27 июня 2013</td>
-<td rowspan="2">Усовершенствование движка JavaScript Chakra, переработанный инструмент разработчика F12, поддержка WebGL.</td>
-</tr>
-<tr>
-<td>Internet Explorer 11 Developer Preview for Windows 7</td>
-<td>26 июля 2013</td>
-</tr>
-<tr>
-<td>Internet Explorer 11 для Windows 7</td>
-<td rowspan="2">11.0.9600.17843</td>
-<td>3 июня 2015</td>
-<td>Улучшена производительность, безопасность, стабильность</td>
-</tr>
-</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#table_11">Открыть</button>
+<div class="modal fade" id="table_11" tabindex="-1" role="dialog" aria-labelledby="table_11ModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="table_11ModalLabel">История версий</h4>
+      </div>
+      <div class="modal-body">
+		<div style="overflow-x: auto;">
+		<table  class="table mytable table-bordered table-striped table-responsive">
+		<tr>
+		<th>Имя</th>
+		<th>Версия</th>
+		<th>Дата выпуска</th>
+		<th>Новые особенности</th>
+		</tr>
+		<tr>
+		<td>Internet Explorer 11 Developer Preview</td>
+		<td rowspan="2">11.0.9431.0</td>
+		<td>27 июня 2013</td>
+		<td rowspan="2">Усовершенствование движка JavaScript Chakra, переработанный инструмент разработчика F12, поддержка WebGL.</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 11 Developer Preview for Windows 7</td>
+		<td>26 июля 2013</td>
+		</tr>
+		<tr>
+		<td>Internet Explorer 11 для Windows 7</td>
+		<td rowspan="2">11.0.9600.17843</td>
+		<td>3 июня 2015</td>
+		<td>Улучшена производительность, безопасность, стабильность</td>
+		</tr>
+		</table>
+		</div>
+	   </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>

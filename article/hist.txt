@@ -1,2 +1,650 @@
 <h2>Разработка и ранние версии</h2>
-<p>Проект по разработке Internet Explorer был основан в 1994 году Томасом Риардоном. Согласно данным обзора Массачусетского технологического института в 2003 году, он использовал исходный код программы Mosaic разработчика Spyglass, Inc., который формально связан с браузером NCSA Mosaic.</p><p>Первая версия Internet Explorer, Microsoft Internet Explorer (позже названа Internet Explorer 1), вышла 16 августа 1995 года и представляла собой переработанную версию браузера Spyglass Mosaic, лицензия на который была выкуплена Microsoft. Она шла в комплекте с Microsoft Plus! для Windows 95 и OEM-релиза для Windows 95. Через несколько месяцев был выпущен Internet Explorer 1.5 для Windows NT, который поддерживал функцию отображения таблиц HTML на веб-страницах.</p>
+<p>Проект по разработке Internet Explorer был основан в 1994 году Томасом Риардоном. Согласно данным обзора Массачусетского технологического института в 2003 году, он использовал исходный код программы Mosaic разработчика Spyglass, Inc., который формально связан с браузером NCSA Mosaic.</p>
+<p>Первая версия Internet Explorer, Microsoft Internet Explorer (позже названа Internet Explorer 1), вышла 16 августа 1995 года и представляла собой переработанную версию браузера Spyglass Mosaic, лицензия на который была выкуплена Microsoft. Она шла в комплекте с Microsoft Plus! для Windows 95 и OEM-релиза для Windows 95. Через несколько месяцев был выпущен Internet Explorer 1.5 для Windows NT, который поддерживал функцию отображения таблиц HTML на веб-страницах.</p>
+<h3>Версии браузера Internet Explorer</h3>
+<p>Таблица со всеми версиями браузера и их совместимостью с различными ОС <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#table_one">Открыть</button></p>
+
+
+
+
+<!-- Модаль -->  
+<div class="modal fade" id="table_one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div style="width:auto; margin-left:0.2%; margin-right:0.2%;" class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Таблица со всеми версиями браузера и их совместимостью с различными ОС</h4>
+      </div>
+      <div class="modal-body">
+        <div style="overflow-x: auto;">
+		<table class="table mytable table-bordered table-striped table-responsive">
+		<tbody>
+		<tr>
+		<th rowspan="2" style="width:12em"> Браузер	</th>
+		<th rowspan="2">Год	</th>
+		<th rowspan="2">Браузерный движок</th>
+		<th colspan="15"><big>Windows</big></th>
+		<th rowspan="2">IBM OS/2</th>
+		<th rowspan="2">Mac OS X (Intel/PPC)</th>
+		<th rowspan="2">Mac OS 9</th>
+		<th rowspan="2">Mac OS 8</th>
+		<th rowspan="2">System 7 (PPC/68k)</th>
+		<th rowspan="2">Unix (HP-UX, Solaris)</th>
+		</tr>
+		<tr>
+		<th>10</th>
+		<th>8.1</th>
+		<th>8</th>
+		<th>7</th>
+		<th>Vista</th>
+		<th>2003</th>
+		<th>XP</th>
+		<th>2000</th>
+		<th>98 / Me</th>
+		<th>NT 4.0</th>
+		<th>95</th>
+		<th>3.1</th>
+		<th>Phone 8.1</th>
+		<th>Phone 8</th>
+		<th>Phone 7</th>
+		</tr>
+		<tr>
+		<th> Год выхода ОС</th>
+		<td> —
+		</td>
+		<td> —
+		</td>
+		<td>  2015
+		</td>
+		<td>  2013
+		</td>
+		<td>  2012
+		</td>
+		<td>  2009
+		</td>
+		<td>  2006
+		</td>
+		<td>  2003
+		</td>
+		<td>  2001
+		</td>
+		<td>  1999
+		</td>
+		<td>  1998/2000
+		</td>
+		<td>  1996
+		</td>
+		<td>  1995
+		</td>
+		<td>  1992
+		</td>
+		<td>   2014
+		</td>
+		<td>   2012
+		</td>
+		<td>   2010
+		</td>
+		<td>  2001
+		</td>
+		<td>  2001
+		</td>
+		<td>  1999
+		</td>
+		<td>  1997
+		</td>
+		<td>  1991
+		</td>
+		<td>  1990-е
+		</td>
+		</tr>
+		<tr>
+		<th>IE 11
+		</th>
+		<td>  2013
+		</td>
+		<td>Trident 7.0</td>
+		<td style="background:#ddfbff;"> Включён, не по умолчанию в стандартных приложениях, параллельно с Edge.
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да (только после обновления до 8.1 или 10)
+		</td>
+		<td style="background-color:#90ff90;"> Да (только SP1)
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		</tr>
+		<tr>
+		<th>IE 10</th>
+		<td>  2012
+		</td>
+		<td>Trident 6.0</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да (только SP1)
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		</tr>
+		<tr>
+		<th>IE 9</th>
+		<td>  2011
+		</td>
+		<td>Trident 5.0</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		<p>(только SP2)
+		</p>
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		</tr>
+		<tr>
+		<th>IE 8</th>
+		<td>  2009
+		</td>
+		<td>Trident 4.0</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		<p>(только SP2)
+		</p>
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		<p>(только SP2 и SP3)
+		</p>
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		</tr>
+		<tr>
+		<th>IE 7</th>
+		<td>  2006
+		</td>
+		<td>Trident</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		<p>(только SP1 и SP2)
+		</p>
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		<p>(только SP2 и SP3)
+		</p>
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		</tr>
+		<tr>
+		<th>IE 6</th>
+		<td>  2001
+		</td>
+		<td>Trident</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background:#ddfbff;"> Включён (SP1 и SP2)
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		<p>(6.0 SP1)
+		</p>
+		</td>
+		<td style="background:#ffeedd;"> Удалён (6.0 SP1)
+		</td>
+		<td style="background:#ffeedd;"> Удалён (6.0 SP1)
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td></tr>
+		<tr>
+		<th>IE 5.5</th>
+		<td>  2000
+		</td>
+		<td>Trident</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background:#ddfbff;"> Включён (5.01)
+		</td>
+		<td style="background:#ddfbff;"> Включён (Windows 98 SE)
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td></tr>
+		<tr>
+		<th>IE 5</th>
+		<td>  1999
+		</td>
+		<td>Trident<br /><sup>Windows</sup><br />Tasman<br /><sup>Mac OS</sup>
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background:#ddfbff;"> Включён (5.01)
+		</td>
+		<td rowspan="2" style="background:#ddfbff;"> Включён (4.01/5.5 SP2)
+		</td>
+		<td rowspan="2" style="background-color:#90ff90;"> Да
+		</td>
+		<td rowspan="2" style="background:#ddfbff;"> Включён
+		</td>
+		<td rowspan="2" style="background-color:#90ff90;"> Да
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background-color:#ff9090;"> Нет
+		</td>
+		<td rowspan="2" style="background:#ffeedd;"> Удалён (5.2.3) Включён
+		</td>
+		<td rowspan="2" style="background:#ffeedd;"> Удалён (5.1.7) Включён
+		</td>
+		<td rowspan="2" colspan="2" style="background:#ffeedd;"> Удалён (5.1.7)
+		</td>
+		<td rowspan="2" style="background:#ffeedd;"> Удалён (5.01 SP1)
+		</td></tr>
+		<tr>
+		<th>IE 4</th>
+		<td>  1997
+		</td>
+		<td>Trident</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		</tr>
+		<tr>
+		<th>IE 3</th>
+		<td>  1996
+		</td>
+		<td> Неизвестен
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td>  версия для Windows 3.1</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td></tr>
+		<tr>
+		<th>IE 2</th>
+		<td>  1995
+		</td>
+		<td> Неизвестен
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background:#ddfbff;"> Включён (2.0)
+		</td>
+		<td style="background:#ddfbff;"> Включён
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td>  версия для Windows 3.1</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background: #E4E4E4;">Неизвестно
+		</td>
+		<td style="background: #E4E4E4;">Неизвестно
+		</td>
+		<td style="background:#dfdfff;"> Beta (2.0)
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td></tr>
+		<tr>
+		<th>IE 1</th>
+		<td>  1995
+		</td>
+		<td>Spyglass</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#90ff90;"> Да
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td>  версия для Windows 3.1</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td>
+		<td style="background-color:#ff9090;"> Нет
+		</td></tr>
+		</tbody>
+		</table>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
